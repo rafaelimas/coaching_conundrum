@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  max-width: 560px;
+  padding: 2em;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a; */
+  /* background-color: #f9f9f9; */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+.time-selector {
+  display: flex;
+  align-items: right;
+  padding: 10px 20px;
+  border: 2px solid #7b7b7b;
+  border-radius: 5px;
+  color: #505050;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+.time-selector.Unavailable {
+  background-color: #f0f8ff;
+  justify-content: space-between;
+}
+.time-selector.Available {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #007bff;
+  color: white;
+}
+.time-selector.Booked {
+  background-color: #00a07b;
+  color: white;
+}
+
+.react-calendar__tile--active {
+  background-color: #007bff;
+  color: white;
+}
+
+.user-selector {
+  display: flex;
+  justify-content: space-between;
+}
+
+table { 
+  width: 100%; 
+  border-collapse: collapse;
+}
+
+th { 
+  border: 1px solid black;
+  padding: 8px;
+  color: white;
+  background-color: black;
+}
+
+td { 
+  border: 1px solid black;
+  padding: 8px;
+}

@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "npx tsx --watch  src/index.ts",
-    "init_db": "npx tsx src/utils/initialize_db.ts"
+    "init_db": "npx tsx utils/initialize_db.ts"
   },
   "author": "Rafa Imas",
   "license": "ISC",

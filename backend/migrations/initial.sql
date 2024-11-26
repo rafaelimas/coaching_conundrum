@@ -32,10 +32,10 @@ CREATE TABLE booking (
 ALTER TABLE booking ADD CONSTRAINT FKBookingStudent FOREIGN KEY (student_id) REFERENCES student (student_id);
 ALTER TABLE booking ADD CONSTRAINT FKBookingAvailability FOREIGN KEY (availability_id) REFERENCES availability (availability_id);
 
-INSERT INTO student(name, phone) VALUES('Rafa', '(303)212-9119')
-INSERT INTO student(name, phone) VALUES('David', '(663)918-9119')
-INSERT INTO student(name, phone) VALUES('Ana', '(718)412-9119')
+INSERT INTO student(name, phone) VALUES('Rafa', '(303)212-9119');
+INSERT INTO student(name, phone) VALUES('David', '(663)918-9119');
+INSERT INTO student(name, phone) VALUES('Ana', '(718)412-9119');
 
-INSERT INTO public.coach (coach_id, name, phone) VALUES (DEFAULT, 'David Smith', '(212)932-89374')
-INSERT INTO public.coach (coach_id, name, phone) VALUES (DEFAULT, 'Alicia Robinson', '(306)128-9999')
-INSERT INTO public.coach (coach_id, name, phone) VALUES (DEFAULT, 'Peter Williams', '(902)132-9911')
+INSERT INTO public.coach (coach_id, name, phone) VALUES (DEFAULT, 'David Smith', '(212)932-89374');
+INSERT INTO public.coach (coach_id, name, phone) VALUES (DEFAULT, 'Alicia Robinson', '(306)128-9999');
+INSERT INTO public.coach (coach_id, name, phone) VALUES (DEFAULT, 'Peter Williams', '(902)132-9911');

@@ -1,4 +1,4 @@
-# Coach Conundrum
+# Coaching Conundrum
 
 ## The Problem
 
